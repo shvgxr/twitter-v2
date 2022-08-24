@@ -1,0 +1,1 @@
+small project to learn authentication using passport as well as using sessions

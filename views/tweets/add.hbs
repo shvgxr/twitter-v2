@@ -1,0 +1,26 @@
+<h5>Add Tweet</h5>
+<div class="row">
+    <form action="/tweets" method="POST" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <label for="privacy">Tweet privacy</label>
+                <select id="privacy" name="privacy">
+                    <option value="public" selected>Public</option>
+                    <option value="private">Private</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <h5>Write your tweet:</h5>
+                <textarea id="body" name="body"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="tweet" class="btn" style="background-color:#2196f3">
+            <a href="/feed" class="btn blue">Cancel</a>
+        </div>
+    </form>
+</div>
